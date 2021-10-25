@@ -1,6 +1,6 @@
 ;; -*- coding: utf-8 -*-
-;; This file is part of CL-JKit+.
-;; Copyright (c) 2019-2021 tradcrafts
+;; This file is part of CL-JKit-plus.
+;; Copyright (c) 2018-2021 tradcrafts
 
 (in-package :cl-user)
 
