@@ -29,7 +29,7 @@
 ; (c) copyright Mark Tarver, 2008
 ; End of Licence
 
-(eval-when (:compile-toplevel :load-toplevel :execute)
+(EVAL-WHEN (:COMPILE-TOPLEVEL :LOAD-TOPLEVEL :EXECUTE)
   (SETF *READTABLE* (COPY-READTABLE *READTABLE*))
   (SETF (READTABLE-CASE *READTABLE*) :PRESERVE)
   )
