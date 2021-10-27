@@ -32,7 +32,7 @@
 (IN-PACKAGE :CL-USER)
                                         ;(setq custom:*load-compiling* t)
 
-(eval-when (:compile-toplevel :load-toplevel :execute)
+(EVAL-WHEN (:COMPILE-TOPLEVEL :LOAD-TOPLEVEL :EXECUTE)
   (SETF *READTABLE* (COPY-READTABLE *READTABLE*))
   (SETF (READTABLE-CASE *READTABLE*) :PRESERVE)
   )
