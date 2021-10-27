@@ -5,6 +5,13 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(IN-PACKAGE :CL-USER)
+
+(EVAL-WHEN (:COMPILE-TOPLEVEL :LOAD-TOPLEVEL :EXECUTE)
+  (SETF *READTABLE* (COPY-READTABLE *READTABLE*))
+  (SETF (READTABLE-CASE *READTABLE*) :UPCASE)
+  )
+
 (use-package :jkit.embed.core :jkit.mspace)
 
 
