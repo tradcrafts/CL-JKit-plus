@@ -1,3 +1,4 @@
+<!--dd -*- coding: utf-8 -*- -->  
 # CL-JKit-plus
 
 SBCL. CCL, CMUCL
